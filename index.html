@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <meta
+      name="description"
+      content="A cinematic, scroll-driven digital love letter for a birthday celebration."
+    />
+    <link rel="stylesheet" href="/src/styles/main.css?v=20260705" />
+  </head>
+  <body>
+    <div class="chapter-rail" aria-hidden="true">
+      <div class="chapter-rail__line"></div>
+      <div class="chapter-rail__fill"></div>
+      <div class="chapter-rail__markers"></div>
+    </div>
+
+    <main class="page-shell">
+      <section class="hero-section" data-reveal data-chapter-section>
+        <div class="hero-copy centered-copy">
+          <p class="section-label">Chapter One</p>
+          <p class="eyebrow">For the woman who lights every room</p>
+          <h1>From the moment I knew you, everything changed.</h1>
+          <p class="hero-text">
+            A love letter told one chapter at a time.
+          </p>
+          <div class="hero-actions">
+            <a class="hero-link" href="#story">Begin the story</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="story-section" data-reveal data-chapter-section>
+        <div class="story-intro" data-reveal>
+          <p class="section-label">Chapter Two</p>
+          <p class="eyebrow">A birthday archive, made for you</p>
+          <p>Just a reminder that you are loved by so many people.</p>
+        </div>
+
+        <div class="chapter-images" data-reveal>
+          <img src="public/assets/picture1.png" alt="picture 1" class="chapter-image" />
+          <img src="public/assets/Picture2.png" alt="picture 2" class="chapter-image" />
+          <img src="public/assets/picture3.png" alt="picture 3" class="chapter-image" />
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-kicker"></span>
+              <h3>You are loved.</h3>
+              <p>You are always loved. Every person whose life you’ve touched carries that love for you, and it surrounds you wherever you go.</p>
+            </div>
+          </div>
+
+      <section id="letters" class="letters-section" data-reveal data-chapter-section>
+        <div class="section-heading" data-reveal>
+          <p class="section-label">Chapter Three</p>
+          <p class="eyebrow">LETTERS</p>
+          <h2>Messages from the people who adore you</h2>
+          
+        </div>
+
+        <div class="letters-grid empty-state-grid" id="lettersGrid">
+          <!-- Grid starts empty; user-added letters will appear here. -->
+          <button id="addLetter" class="letter-card letter-card--add" aria-label="Add letter" title="Add letter">
+            <span class="letter-add__plus">+</span>
+            <span class="letter-add__label">Add</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="tribute-section" data-reveal data-chapter-section>
+        <div class="tribute-hero" data-reveal>
+          <div class="tribute-hero__content">
+            <p class="section-label">Last Chapter</p>
+            <p class="eyebrow">A soft closing for your special day</p>
+          </div>
+          <div class="tribute-image">
+            <img src="public/assets/picture3.png" alt="">
+            <div class="tribute-overlay">Happy Birthday,<br />Xyla</div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="floating-date">Date • July 8, 2026</div>
+    <div class="spotify-player spotify-player--top-right" data-reveal>
+      <iframe
+        title="Spotify playlist"
+        src="https://open.spotify.com/embed/playlist/3v1GGVObjlVMFGm4qCXFBS?utm_source=generator&theme=0"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <script src="/dist/bundle.js?v=20260705"></script>
+  </body>
+</html>

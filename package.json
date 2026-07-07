@@ -1,0 +1,35 @@
+{
+  "name": "birthday-love-letter-site",
+  "version": "1.0.0",
+  "description": "A cinematic, scroll-driven 3D happy birthday website built as a digital love letter.",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open",
+    "test": "jest"
+  },
+  "dependencies": {
+    "three": "^0.136.0",
+    "gsap": "^3.9.1",
+    "dat.gui": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/three": "^0.169.0",
+    "typescript": "^5.6.3",
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "jest": "^27.4.5",
+    "ts-loader": "^9.2.6"
+  },
+  "keywords": [
+    "birthday",
+    "love letter",
+    "3D",
+    "WebGL",
+    "interactive"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
