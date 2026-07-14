@@ -150,7 +150,7 @@ class App {
     };
 
     // Initial render
-    render();
+    // render();
 
     // Delegated handlers
     grid.addEventListener('click', async (ev) => {
